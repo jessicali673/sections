@@ -11,17 +11,30 @@ html {
 
 img {
   text-align: center;
+  margin: 1.5rem;
+  padding: 1em 2em;
 }
 
-h2 {
+.content {
   text-align: center;
-}
-
-p {
-  text-align: center;
+  display: inline-block;
+  margin: 1.5rem;
+  padding: 1em 2em;
+  max-width: 25em;
 }
 
 a {
+  text-decoration: none;
+  color: #666;
   display: inline-block;
   text-align: center;
+  border: 4px solid #333;
+  border-radius: 8px;
+  padding: .4em .75em .5em;
+}
+
+.link {
+  display: inline-block;
+  text-align: center;
+  max-width: 25em;
 }
