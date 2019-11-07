@@ -1,9 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Lato, sans-serif;
-  background-color: #eee9de;
-  line-height: 1.5;
-  vertical-align: middle;
+  font: 100%/1.5 Lato, san-serif;
 }
 
 *, *::before, *::after {
@@ -14,8 +11,39 @@ body {
   margin: 0;
 }
 
-.giza {
+.banner {
+  padding: 2em 0;
   text-align: center;
+  background-color: #eee9de;
+  vertical-align: middle;
+}
+
+.content {
+  max-width: 25em;
+  padding: 1em;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  text-align: left;
+}
+
+h2, p {
+  margin: 0 0 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  text-decoration: none;
+  border: 3px solid #333;
+  border-radius: 8px;
+  padding: .4em .75em .5em;
+  color: #333;
+}
+
+.btn a:hover {
+  background-color: #666;
+  color: #fff;
 }
 
 img {
@@ -23,44 +51,10 @@ img {
   width: 100%;
 }
 
-.img {
-  max-width: 25em;
-  margin-top: 1.5rem;
+.image {
   padding: 1em;
   display: inline-block;
-}
-
-.content {
-  display: inline-block;
-  text-align: left;
+  width: 100%;
   max-width: 25em;
-  padding: 1em;
-}
-
-h2 {
-  margin: 0;
-}
-
-p {
-  padding: 1em 0;
-}
-
-.btn {
-  display: inline-block;
-  text-align: left;
-  border: 3px solid #333;
-  border-radius: 8px;
-  padding: .4em .75em .5em;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-  display: inline-block;
-  padding: .4em .75em .5em;
-}
-
-a:hover {
-  background-color: #666;
-  color: #fff;
+  vertical-align: middle;
 }
